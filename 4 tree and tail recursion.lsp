@@ -1,9 +1,7 @@
 (define (factorial n)
 	(if (= n 1)
 		1
-		(* n (factorial (- n 1)))))//линейная рекурсия		
-		
-		
+		(* n (factorial (- n 1)))))//линейная рекурсия						
 		
 		(define (build L)
 (define (build-iter L result)
